@@ -51,6 +51,8 @@ python slp_iris.py
 | 3 | 0.9750 | 0.024372 | 0.5000 | 0.175892 |
 | 4 | 0.9750 | 0.017357 | 0.8500 | 0.119381 |
 | 5 | 0.9875 | 0.012740 | 1.0000 | 0.081581 |
+
+
 Identik dengan perhitungan yang dilakukan di Google Sheets
 
 ![Accuracy chart](accuracy_chart.png)
