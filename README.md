@@ -23,8 +23,11 @@ Mata Kuliah: Deep Learning
 | Split data | 80 training (40+40), 20 validation (10+10), tanpa shuffle |
 
 Gradien yang digunakan: 
+
 d = 2 * (g(z) − y) * (1 − g(z)) * g(z)
+
 bias = bias - lr * d
+
 θi = θi - lr * d * xi
 
 Validasi pada epoch ke-k memakai bobot hasil akhir training epoch ke-k, tanpa update bobot.
