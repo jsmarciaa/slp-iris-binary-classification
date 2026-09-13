@@ -7,7 +7,8 @@ NIM: 24/538431/PA/22846
 Mata Kuliah: Deep Learning
 
 ## Spesifikasi Model
-
+| Komponen | Nilai|
+| --- | --- |
 | Arsitektur | 4 input → 1 neuron output |
 | Aktivasi | Sigmoid, g(z) = 1 / (1 + e^-z) |
 | Prediksi | 1 jika g(z) > 0.5, selain itu 0 |
@@ -28,7 +29,8 @@ Validasi pada epoch ke-k memakai bobot hasil akhir training epoch ke-k, tanpa up
 
 
 ## Struktur File
-
+| File | Detail |
+| --- | --- |
 | `iris_binary.csv` | 100 baris data (kolom X1, X2, X3, X4, species) |
 | `slp_iris.py` | kode utama: load data, training, evaluasi, chart |
 | `metrics.csv` | output: accuracy & loss per epoch |
@@ -42,12 +44,13 @@ python slp_iris.py
 ```
 
 ## Hasil
-epoch  train_accuracy  train_loss  val_accuracy  val_loss
-     1          0.5250    0.449889          0.50  0.328951
-     2          0.9500    0.037452          0.50  0.247289
-     3          0.9750    0.024372          0.50  0.175892
-     4          0.9750    0.017357          0.85  0.119381
-     5          0.9875    0.012740          1.00  0.081581
+| Epoch | Train Accuracy | Train Loss | Val Accuracy | Val Loss |
+|---|---|---|---|---|
+| 1 | 0.5250 | 0.449889 | 0.5000 | 0.328951 |
+| 2 | 0.9500 | 0.037452 | 0.5000 | 0.247289 |
+| 3 | 0.9750 | 0.024372 | 0.5000 | 0.175892 |
+| 4 | 0.9750 | 0.017357 | 0.8500 | 0.119381 |
+| 5 | 0.9875 | 0.012740 | 1.0000 | 0.081581 |
 Identik dengan perhitungan yang dilakukan di Google Sheets
 
 ![Accuracy chart](accuracy_chart.png)
